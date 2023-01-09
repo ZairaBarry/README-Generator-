@@ -1,8 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+const fs = require ("fs")
 
 
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  switch(license) {
+    case  "MIT" :
+      return  "\n![License](https://img.shields.io/badge/License-MIT-yellow.svg)";
+
+      case "Apache License 2.0":
+        return "\n![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
+  
+      case "Mozila Public License 2.0":
+        return "\n![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
+  
+      default:
+        return "";
+  
+    }
+  };
+  
   
 
 // TODO: Create a function that returns the license link
