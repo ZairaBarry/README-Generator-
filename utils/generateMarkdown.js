@@ -2,7 +2,6 @@
 // If there is no license, return an empty string
 const fs = require("fs")
 
-
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
@@ -63,7 +62,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contribution)
+  * [Contributing](#contribute)
   * [Test](#tests)
   * [License](#license)
   * [Questions](#questions)
@@ -82,7 +81,7 @@ function generateMarkdown(data) {
   ${data.test}
   ${renderLicenseSection(data.license)}
   ## Questions
-  If there are any further questions please feel free to contact me on my Github page at https://github.com/${data.github} or email me at ${data.email}`;
+  If you have any additional questions  please feel free to contact me on my Github page at https://github.com/${data.github} or email me at ${data.email}`;
 
 }
 
