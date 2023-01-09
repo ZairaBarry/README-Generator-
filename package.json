@@ -16,5 +16,8 @@
     "url": "https://github.com/ZairaBarry/README-Generator-/issues"
   },
   "homepage": "https://github.com/ZairaBarry/README-Generator-#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
