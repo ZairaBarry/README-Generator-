@@ -138,21 +138,6 @@ const questions = [
 
   {
     type: 'input',
-    name: 'name',
-    message: 'Welcome to README generator. Please include your name ',
-
-    validate: (nameInput) => {
-      if (nameInput) {
-        return true;
-      } else {
-        console.log("Please enter your name!");
-        return false;
-      }
-    },
-  },
-
-  {
-    type: 'input',
     name: 'github',
     message: ' Please include your GitHub username ',
 
