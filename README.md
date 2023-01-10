@@ -1,30 +1,27 @@
-# d
-  
+#Readme_Generator
 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contribution)
-  * [Test](#tests)
-  * [License](#license)
-  * [Questions](#questions)
-  
-  ## Description
-  d
-  ## Installation
-  undefined
+## Description
 
-  
-  ## Usage
-  d
-  ## Contributing
-  undefined
-  ## Tests
-  undefined
-  ## License
-This application is covered under [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
-      
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  ## Questions
-  If there are any further questions please feel free to contact me on my Github page at https://github.com/d or email me at d
+This project os command line iapplication which takes user's input using Inquirer package and generates a professional README file.
+
+## Installation
+
+It is required to use inquirer , please use npm i inquirer@8.2.4.
+
+## Usage
+
+Please start running the application by entering node index.js in the terminal.
+You will be presented with the questions to answer.
+Please enter title of the project, Description, Usage, Installation, Contributing and Tests.
+When you get to the licence question make your selection using arrow key.
+Then you can enter your GitHub username and email address with instruction to contact you with additional questions.
+Then you Readme file is generated and the Table of Contents has clickable links.
+
+## Tests
+
+In order to run the application run the command
+node index
+
+## License
+
+This application is licensed under MIT
