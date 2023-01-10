@@ -1,4 +1,4 @@
-#Readme_Generator
+# Readme_Generator
 
 ## Description
 
@@ -22,7 +22,7 @@ Then you Readme file is generated and the Table of Contents has clickable links.
 ## Tests
 
 In order to run the application run the command
-node index
+ node index.js 
 
 ## License
 
