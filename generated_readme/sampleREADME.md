@@ -1,30 +1,28 @@
-# df
+# Readme Generator
   
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contribute)
+  * [Contributing](#contributing)
   * [Test](#tests)
   * [License](#license)
   * [Questions](#questions)
   
   ## Description
-  df
+  Command line application.
   ## Installation
   undefined
-
-  
   ## Usage
-  df
+  Please start the application by running node index.js in the terminal.
   ## Contributing
-  df
+  none
   ## Tests
   undefined
   ## License
-This application is covered under [MIT](https://opensource.org/licenses/MIT)
+This application is covered under [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
       
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   ## Questions
-  If you have any additional questions  please feel free to contact me on my Github page at https://github.com/ or email me at 
+  If you have any additional questions  please feel free to contact me on my Github page at https://github.com/zaira.barry or email me at zaira.barakaeva@gmail.com

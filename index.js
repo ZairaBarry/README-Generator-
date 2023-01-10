@@ -40,7 +40,7 @@ const questions = [
 
   {
     type: 'input',
-    name: 'contribute',
+    name: 'contributing',
     message: 'Please enter contribution guidelines.',
   },
 
